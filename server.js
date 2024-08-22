@@ -1,10 +1,13 @@
 "use strict";
 
-const path = require("path");
-const google = require("@googleapis/forms");
-const { authenticate } = require("@google-cloud/local-auth");
+import path from "path";
+import google from "@googleapis/forms";
+import { authenticate } from "@google-cloud/local-auth";
+import form from "./forms/first.js";
 
-async function runSample(query) {
+const __dirname = path.resolve(path.dirname(""));
+
+async function runSample() {
   const authClient = await authenticate({
     keyfilePath: path.join(__dirname, "credentials.json"),
     scopes: "https://www.googleapis.com/auth/drive",
@@ -15,39 +18,37 @@ async function runSample(query) {
   });
   const newForm = {
     info: {
-      title: "Creating a new form in Node",
-    },
-    questionItem: {
-      question: {
-        required: True,
-        grading: {
-          pointValue: 2,
-          correctAnswers: {
-            answers: [{ value: "Rihanna" }],
-          },
-          whenRight: { text: "You got it!" },
-          whenWrong: { text: "Sorry, that's wrong" },
-        },
-        choiceQuestion: {
-          type: "RADIO",
-          options: [
-            { value: "Kelly Rowland" },
-            { value: "Beyoncé" },
-            { value: "Rihanna" },
-            { value: "Michelle Williams" },
-          ],
-        },
-      },
+      title: "Info Title",
     },
   };
-  const res = await forms.forms.create({
-    requestBody: newForm,
-  });
-  console.log(res.data);
-  return res.data;
+
+  try {
+    const create = await forms.forms.create({
+      requestBody: newForm,
+    });
+
+    console.log(create.data.formId);
+
+    for (const item of form.items) {
+      const updateRes = await forms.forms.batchUpdate({
+        formId: create.data.formId,
+        requestBody: {
+          requests: [
+            {
+              createItem: {
+                item: item,
+                location: { index: 0 },
+              },
+            },
+          ],
+        },
+      });
+      console.log("Item Created");
+    }
+  } catch (error) {
+    console.log(error);
+  }
+  return null;
 }
 
-if (module === require.main) {
-  runSample().catch(console.error);
-}
-module.exports = runSample;
+runSample().catch(console.error);

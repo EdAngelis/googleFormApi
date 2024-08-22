@@ -1,0 +1,27 @@
+{
+    "item": {
+    "title": "Which of these singers was not a member of Destiny's Child?",
+    "questionItem": {
+        "question": {
+            "required": true,
+            "grading": {
+                "pointValue": 2,
+                "correctAnswers": {
+                    "answers": [{"value": "Rihanna"}]
+                },
+                "whenRight": {"text": "You got it!"},
+                "whenWrong": {"text": "Sorry, that's wrong"}
+            },
+            "choiceQuestion": {
+                "type": "RADIO",
+                "options": [
+                    {"value": "Kelly Rowland"},
+                    {"value": "Beyoncé"},
+                    {"value": "Rihanna"},
+                    {"value": "Michelle Williams"}
+                ]
+            }
+        }
+    }
+    }
+}
