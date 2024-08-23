@@ -3,7 +3,7 @@
 import path from "path";
 import google from "@googleapis/forms";
 import { authenticate } from "@google-cloud/local-auth";
-import form from "./forms/first.js";
+import form from "./forms/form.js";
 
 const __dirname = path.resolve(path.dirname(""));
 
@@ -18,7 +18,7 @@ async function runSample() {
   });
   const newForm = {
     info: {
-      title: "Info Title",
+      title: "Substantivo, Adjetivo ou Verbo",
     },
   };
 
@@ -29,22 +29,35 @@ async function runSample() {
 
     console.log(create.data.formId);
 
+    var requests = [
+      // {
+      //   updateSettings: {
+      //     settings: {
+      //       quizSettings: {
+      //         isQuiz: true,
+      //       },
+      //     },
+      //     updateMask: "",
+      //   },
+      // },
+    ];
+
     for (const item of form.items) {
-      const updateRes = await forms.forms.batchUpdate({
-        formId: create.data.formId,
-        requestBody: {
-          requests: [
-            {
-              createItem: {
-                item: item,
-                location: { index: 0 },
-              },
-            },
-          ],
+      requests.push({
+        createItem: {
+          item: item,
+          location: { index: 0 },
         },
       });
-      console.log("Item Created");
     }
+
+    const updateRes = await forms.forms.batchUpdate({
+      formId: create.data.formId,
+      requestBody: {
+        includeFormInResponse: false,
+        requests: requests,
+      },
+    });
   } catch (error) {
     console.log(error);
   }

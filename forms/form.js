@@ -1,42 +1,34 @@
 export default {
   items: [
     {
-      title: "Correr",
-      description: "",
+      title: "Qual o Nome da gatinha",
       questionItem: {
         question: {
           required: true,
-          // grading: {
-          //   pointValue: 1,
-          //   correctAnswers: {
-          //     answers: [
-          //       {
-          //         value: "loira",
-          //       },
-          //     ],
-          //   },
-          //   whenRight: {
-          //     text: "Certo, Muito bem!",
-          //   },
-          //   whenWrong: {
-          //     text: "Errado, loira é o adjetivo pq dá uma característica para o substantivo menina",
-          //     material: [{}],
-          //   },
-          //   generalFeedback: {},
-          // },
+          textQuestion: {
+            paragraph: false,
+          },
+        },
+      },
+    },
+    {
+      title: "Na frase, A menina loira brinca, qual é o verbo?",
+      questionItem: {
+        question: {
+          required: true,
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "menina",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "loira",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "brinca",
                 isOther: false,
               },
             ],
@@ -46,8 +38,7 @@ export default {
       },
     },
     {
-      title: "Árvore ",
-      description: "",
+      title: "Na frase, O cachorro marrom corre rápido, qual é o substantivo?",
       questionItem: {
         question: {
           required: true,
@@ -55,15 +46,19 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "cachorro",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "marrom",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "corre",
+                isOther: false,
+              },
+              {
+                value: "rápido",
                 isOther: false,
               },
             ],
@@ -73,8 +68,7 @@ export default {
       },
     },
     {
-      title: "Feliz ",
-      description: "",
+      title: "Na frase, A flor vermelha é bonita, qual é o adjetivo?",
       questionItem: {
         question: {
           required: true,
@@ -82,15 +76,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "flor",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "vermelha",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "bonita",
                 isOther: false,
               },
             ],
@@ -100,8 +94,7 @@ export default {
       },
     },
     {
-      title: "Amizade ",
-      description: "",
+      title: "Na frase, O carro vermelho acelera, qual é o verbo?",
       questionItem: {
         question: {
           required: true,
@@ -109,15 +102,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "carro",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "vermelho",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "acelera",
                 isOther: false,
               },
             ],
@@ -127,8 +120,7 @@ export default {
       },
     },
     {
-      title: "Brilhante ",
-      description: "",
+      title: "Na frase, A casa nova brilha, qual é o substantivo?",
       questionItem: {
         question: {
           required: true,
@@ -136,15 +128,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "casa",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "nova",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "brilha",
                 isOther: false,
               },
             ],
@@ -154,8 +146,7 @@ export default {
       },
     },
     {
-      title: "Pular ",
-      description: "",
+      title: "Na frase, O pássaro azul canta, qual é o adjetivo?",
       questionItem: {
         question: {
           required: true,
@@ -163,15 +154,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "pássaro",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "azul",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "canta",
                 isOther: false,
               },
             ],
@@ -181,8 +172,7 @@ export default {
       },
     },
     {
-      title: "Silêncio ",
-      description: "",
+      title: "Na frase, O menino alto corre, qual é o substantivo?",
       questionItem: {
         question: {
           required: true,
@@ -190,15 +180,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "menino",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "alto",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "corre",
                 isOther: false,
               },
             ],
@@ -208,8 +198,7 @@ export default {
       },
     },
     {
-      title: "Criativo ",
-      description: "",
+      title: "Na frase, A flor pequena cresce, qual é o verbo?",
       questionItem: {
         question: {
           required: true,
@@ -217,15 +206,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "flor",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "pequena",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "cresce",
                 isOther: false,
               },
             ],
@@ -235,8 +224,7 @@ export default {
       },
     },
     {
-      title: "Cantar ",
-      description: "",
+      title: "Na frase, O gato preto dorme, qual é o adjetivo?",
       questionItem: {
         question: {
           required: true,
@@ -244,15 +232,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "gato",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "preto",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "dorme",
                 isOther: false,
               },
             ],
@@ -262,8 +250,7 @@ export default {
       },
     },
     {
-      title: "Casa ",
-      description: "",
+      title: "Na frase, A bola amarela quica, qual é o verbo?",
       questionItem: {
         question: {
           required: true,
@@ -271,15 +258,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "bola",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "amarela",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "quica",
                 isOther: false,
               },
             ],
@@ -289,8 +276,7 @@ export default {
       },
     },
     {
-      title: "Grande ",
-      description: "",
+      title: "Na frase, O livro antigo ensina, qual é o substantivo?",
       questionItem: {
         question: {
           required: true,
@@ -298,15 +284,15 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "livro",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "antigo",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "ensina",
                 isOther: false,
               },
             ],
@@ -316,8 +302,7 @@ export default {
       },
     },
     {
-      title: "Estudar  ",
-      description: "",
+      title: "Na frase, O cavalo forte corre, qual é o adjetivo?",
       questionItem: {
         question: {
           required: true,
@@ -325,15 +310,93 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "Substantivo",
+                value: "forte",
                 isOther: false,
               },
               {
-                value: "Adjetivo",
+                value: "cavalo",
                 isOther: false,
               },
               {
-                value: "Verbo",
+                value: "corre",
+                isOther: false,
+              },
+            ],
+            shuffle: true,
+          },
+        },
+      },
+    },
+    {
+      title: "Na frase, A árvore alta cresce, qual é o verbo?",
+      questionItem: {
+        question: {
+          required: true,
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "cresce",
+                isOther: false,
+              },
+              {
+                value: "árvore",
+                isOther: false,
+              },
+              {
+                value: "alta",
+                isOther: false,
+              },
+            ],
+            shuffle: true,
+          },
+        },
+      },
+    },
+    {
+      title: "Na frase, O gato branco dorme, qual é o substantivo?",
+      questionItem: {
+        question: {
+          required: true,
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "dorme",
+                isOther: false,
+              },
+              {
+                value: "branco",
+                isOther: false,
+              },
+              {
+                value: "gato",
+                isOther: false,
+              },
+            ],
+            shuffle: true,
+          },
+        },
+      },
+    },
+    {
+      title: "Na frase, O carro rápido acelera, qual é o verbo?",
+      questionItem: {
+        question: {
+          required: true,
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "carro",
+                isOther: false,
+              },
+              {
+                value: "acelera",
+                isOther: false,
+              },
+              {
+                value: "rápido",
                 isOther: false,
               },
             ],
@@ -344,54 +407,3 @@ export default {
     },
   ],
 };
-
-// info: {
-//     title: "Form Model",
-//   },
-//   settings: {},
-//   items: [
-//     {
-//       itemId: "ItemID",
-//       title: "Item Title",
-//       description: "Item Description",
-//       questionItem: {
-//         question: {
-//           questionId: "Question Id",
-//           required: true,
-//           grading: {
-//             pointValue: 0,
-//             correctAnswers: {},
-//             whenRight: {},
-//             whenWrong: {},
-//             generalFeedback: {},
-//           },
-//           choiceQuestion: {
-//             type: "RADIO", // DROP_DOWN, CHECKBOX, RADIO
-//             options: [
-//               {
-//                 value: "First Item Value",
-//                 image: {},
-//                 isOther: true,
-//                 goToAction: "",
-//                 goToSectionId: "",
-//               },
-//             ],
-//             shuffle: true,
-//           },
-//           textQuestion: {
-//             paragraph: false,
-//           },
-//           scaleQuestion: {},
-//           dateQuestion: {},
-//           timeQuestion: {},
-//           fileUploadQuestion: {},
-//           rowQuestion: {},
-//         },
-//       },
-//       questionGroupItem: {},
-//       pageBreakItem: {},
-//       textItem: {},
-//       imageItem: {},
-//       videoItem: {},
-//     },
-//   ],
