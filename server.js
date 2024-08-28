@@ -1,4 +1,4 @@
-"use strict";
+// https://developers.google.com/forms/api/guides
 
 import path from "path";
 import google from "@googleapis/forms";
@@ -18,7 +18,7 @@ async function runSample() {
   });
   const newForm = {
     info: {
-      title: "Substantivo, Adjetivo ou Verbo",
+      title: `Substantivo Comum ou Próprio`,
     },
   };
 
@@ -30,14 +30,24 @@ async function runSample() {
     console.log(create.data.formId);
 
     var requests = [
+      {
+        updateSettings: {
+          settings: {
+            quizSettings: {
+              isQuiz: true,
+            },
+          },
+          updateMask: "quizSettings.isQuiz",
+        },
+      },
       // {
-      //   updateSettings: {
-      //     settings: {
-      //       quizSettings: {
-      //         isQuiz: true,
-      //       },
+      //   updateFormInfo: {
+      //     info: {
+      //       description: `Substantivo Comum: Designa seres, objetos ou conceitos de forma geral, sem especificar. Exemplo: "cidade", "livro", "professor".
+
+      //       Substantivo Próprio: Designa seres, lugares ou objetos específicos, geralmente escrito com inicial maiúscula. Exemplo: "Brasil", "João", "Amazonas".`,
       //     },
-      //     updateMask: "",
+      //     updateMask: "updateFormInfo.description",
       //   },
       // },
     ];

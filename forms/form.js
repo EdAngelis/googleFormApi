@@ -1,18 +1,7 @@
 export default {
   items: [
     {
-      title: "Qual o Nome da gatinha",
-      questionItem: {
-        question: {
-          required: true,
-          textQuestion: {
-            paragraph: false,
-          },
-        },
-      },
-    },
-    {
-      title: "Na frase, A menina loira brinca, qual é o verbo?",
+      title: "Nome da princesa",
       questionItem: {
         question: {
           required: true,
@@ -20,15 +9,45 @@ export default {
             type: "RADIO",
             options: [
               {
-                value: "menina",
+                value: "Ellys",
                 isOther: false,
               },
               {
-                value: "loira",
+                value: "Louise",
+                isOther: false,
+              },
+            ],
+          },
+        },
+      },
+    },
+    {
+      title: "Brasil",
+      questionItem: {
+        question: {
+          required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. Brasil é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "brinca",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -38,27 +57,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O cachorro marrom corre rápido, qual é o substantivo?",
+      title: "cachorro",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. cachorro é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "cachorro",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "marrom",
-                isOther: false,
-              },
-              {
-                value: "corre",
-                isOther: false,
-              },
-              {
-                value: "rápido",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -68,23 +92,32 @@ export default {
       },
     },
     {
-      title: "Na frase, A flor vermelha é bonita, qual é o adjetivo?",
+      title: "Amazonas",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. Amazonas é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "flor",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "vermelha",
-                isOther: false,
-              },
-              {
-                value: "bonita",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -94,23 +127,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O carro vermelho acelera, qual é o verbo?",
+      title: "computador",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. computador é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "carro",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "vermelho",
-                isOther: false,
-              },
-              {
-                value: "acelera",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -120,23 +162,32 @@ export default {
       },
     },
     {
-      title: "Na frase, A casa nova brilha, qual é o substantivo?",
+      title: "São Paulo",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. São Paulo é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "casa",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "nova",
-                isOther: false,
-              },
-              {
-                value: "brilha",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -146,23 +197,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O pássaro azul canta, qual é o adjetivo?",
+      title: "bicicleta",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. bicicleta é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "pássaro",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "azul",
-                isOther: false,
-              },
-              {
-                value: "canta",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -172,23 +232,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O menino alto corre, qual é o substantivo?",
+      title: "Rio de Janeiro",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. Rio de Janeiro é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "menino",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "alto",
-                isOther: false,
-              },
-              {
-                value: "corre",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -198,23 +267,32 @@ export default {
       },
     },
     {
-      title: "Na frase, A flor pequena cresce, qual é o verbo?",
+      title: "mesa",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. mesa é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "flor",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "pequena",
-                isOther: false,
-              },
-              {
-                value: "cresce",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -224,23 +302,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O gato preto dorme, qual é o adjetivo?",
+      title: "João",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. João é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "gato",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "preto",
-                isOther: false,
-              },
-              {
-                value: "dorme",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -250,23 +337,32 @@ export default {
       },
     },
     {
-      title: "Na frase, A bola amarela quica, qual é o verbo?",
+      title: "carro",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. carro é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "bola",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "amarela",
-                isOther: false,
-              },
-              {
-                value: "quica",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -276,23 +372,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O livro antigo ensina, qual é o substantivo?",
+      title: "Amazônia",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. Amazônia é um substantivo próprio, pois se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "livro",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "antigo",
-                isOther: false,
-              },
-              {
-                value: "ensina",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -302,23 +407,32 @@ export default {
       },
     },
     {
-      title: "Na frase, O cavalo forte corre, qual é o adjetivo?",
+      title: "cadeira",
       questionItem: {
         question: {
           required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Comum",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. cadeira é um substantivo comum, pois não se refere a um nome específico.",
+            },
+          },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "forte",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "cavalo",
-                isOther: false,
-              },
-              {
-                value: "corre",
+                value: "Próprio",
                 isOther: false,
               },
             ],
@@ -328,75 +442,32 @@ export default {
       },
     },
     {
-      title: "Na frase, A árvore alta cresce, qual é o verbo?",
+      title: "Porto Alegre",
       questionItem: {
         question: {
           required: true,
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "cresce",
-                isOther: false,
-              },
-              {
-                value: "árvore",
-                isOther: false,
-              },
-              {
-                value: "alta",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "Próprio",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "Errado. Porto Alegre é um substantivo próprio, pois se refere a um nome específico.",
+            },
           },
-        },
-      },
-    },
-    {
-      title: "Na frase, O gato branco dorme, qual é o substantivo?",
-      questionItem: {
-        question: {
-          required: true,
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "dorme",
+                value: "Comum",
                 isOther: false,
               },
               {
-                value: "branco",
-                isOther: false,
-              },
-              {
-                value: "gato",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-    {
-      title: "Na frase, O carro rápido acelera, qual é o verbo?",
-      questionItem: {
-        question: {
-          required: true,
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "carro",
-                isOther: false,
-              },
-              {
-                value: "acelera",
-                isOther: false,
-              },
-              {
-                value: "rápido",
+                value: "Próprio",
                 isOther: false,
               },
             ],
