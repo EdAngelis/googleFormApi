@@ -18,7 +18,7 @@ async function runSample() {
   });
   const newForm = {
     info: {
-      title: `Substantivo Comum ou Próprio`,
+      title: `Pronomes em Inglês, I, He, She, It, You, We ou They`,
     },
   };
 
