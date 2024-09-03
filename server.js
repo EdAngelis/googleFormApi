@@ -3,7 +3,7 @@
 import path from "path";
 import google from "@googleapis/forms";
 import { authenticate } from "@google-cloud/local-auth";
-import form from "./forms/form.js";
+import { form } from "./forms/form.js";
 
 const __dirname = path.resolve(path.dirname(""));
 
@@ -18,7 +18,8 @@ async function runSample() {
   });
   const newForm = {
     info: {
-      title: `Tempos Verbais, Passado, Presente e Futuro`,
+      title: form.title,
+      documentTitle: form.documentTitle,
     },
   };
 
@@ -27,7 +28,7 @@ async function runSample() {
       requestBody: newForm,
     });
 
-    console.log(create.data.formId);
+    console.log(create.data);
 
     var requests = [
       {
@@ -68,6 +69,7 @@ async function runSample() {
         requests: requests,
       },
     });
+    console.log("Items Created");
   } catch (error) {
     console.log(error);
   }
