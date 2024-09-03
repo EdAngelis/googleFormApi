@@ -18,7 +18,7 @@ async function runSample() {
   });
   const newForm = {
     info: {
-      title: `Pronomes em Inglês, I, He, She, It, You, We ou They`,
+      title: `Tempos Verbais, Passado, Presente e Futuro`,
     },
   };
 

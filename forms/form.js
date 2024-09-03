@@ -23,7 +23,7 @@ export default {
       },
     },
     {
-      title: `____ is smart ( Ela é inteligente )`,
+      title: `A menina corre`,
       questionItem: {
         question: {
           required: true,
@@ -32,99 +32,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "she",
+                  value: "presente",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'she' porque se refere à terceira pessoa do singular feminino.",
+              text: "O verbo corre está no presente",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-    // Pronome "I"
-    {
-      title: "____ am going to the store ( Eu estou indo para a loja )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "I",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'I' porque se refere à primeira pessoa do singular.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -134,7 +62,7 @@ export default {
       },
     },
     {
-      title: "____ have a big problem ( Eu tenho um grande problema )",
+      title: "O garoto <estudou> para a prova",
       questionItem: {
         question: {
           required: true,
@@ -143,100 +71,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "I",
+                  value: "passado",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'I' porque se refere à primeira pessoa do singular.",
+              text: "O verbo 'estudou' está no passado.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "he"
-    {
-      title: "____ is my brother ( Ele é meu irmão )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "he",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'he' porque se refere à terceira pessoa do singular masculino.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -246,7 +101,7 @@ export default {
       },
     },
     {
-      title: "____ works at the bank ( Ele trabalha no banco )",
+      title: "Eles <viajarão> para o exterior",
       questionItem: {
         question: {
           required: true,
@@ -255,100 +110,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "he",
+                  value: "futuro",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'he' porque se refere à terceira pessoa do singular masculino.",
+              text: "O verbo 'viajarão' está no futuro.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "she"
-    {
-      title: "____ is my sister ( Ela é minha irmã )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "she",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'she' porque se refere à terceira pessoa do singular feminino.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -358,7 +140,7 @@ export default {
       },
     },
     {
-      title: "____ is very talented ( Ela é muito talentosa )",
+      title: "Nós <estudamos> juntos",
       questionItem: {
         question: {
           required: true,
@@ -367,100 +149,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "she",
+                  value: "presente",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'she' porque se refere à terceira pessoa do singular feminino.",
+              text: "O verbo 'estudamos' está no presente.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "it"
-    {
-      title: "____ is a good book ( É um bom livro )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "it",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'it' porque se refere a um objeto inanimado.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -470,7 +179,7 @@ export default {
       },
     },
     {
-      title: "____ is raining today ( Está chovendo hoje )",
+      title: "Ela <falará> com o professor",
       questionItem: {
         question: {
           required: true,
@@ -479,100 +188,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "it",
+                  value: "futuro",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'it' porque se refere a uma condição climática.",
+              text: "O verbo 'falará' está no futuro.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "you"
-    {
-      title: "____ are my friend ( Você é meu amigo )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "you",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'you' porque se refere à segunda pessoa do singular ou plural.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -582,7 +218,7 @@ export default {
       },
     },
     {
-      title: "____ have a great idea ( Você tem uma ótima ideia )",
+      title: "Você <correu> no parque ontem",
       questionItem: {
         question: {
           required: true,
@@ -591,100 +227,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "you",
+                  value: "passado",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'you' porque se refere à segunda pessoa do singular ou plural.",
+              text: "O verbo 'correu' está no passado.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "we"
-    {
-      title: "____ are going to the park ( Nós estamos indo para o parque )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "we",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'we' porque se refere à primeira pessoa do plural.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -694,7 +257,7 @@ export default {
       },
     },
     {
-      title: "____ love to play soccer ( Nós amamos jogar futebol )",
+      title: "Ele <está aprendendo> a tocar violão",
       questionItem: {
         question: {
           required: true,
@@ -703,100 +266,27 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "we",
+                  value: "presente",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'we' porque se refere à primeira pessoa do plural.",
+              text: "O verbo 'está aprendendo' está no presente.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
-                isOther: false,
-              },
-            ],
-            shuffle: true,
-          },
-        },
-      },
-    },
-
-    // Pronome "they"
-    {
-      title: "____ are my parents ( Eles são meus pais )",
-      questionItem: {
-        question: {
-          required: true,
-          grading: {
-            pointValue: 1,
-            correctAnswers: {
-              answers: [
-                {
-                  value: "they",
-                },
-              ],
-            },
-            whenWrong: {
-              text: "O pronome correto aqui é 'they' porque se refere à terceira pessoa do plural.",
-            },
-          },
-          choiceQuestion: {
-            type: "RADIO",
-            options: [
-              {
-                value: "I",
-                isOther: false,
-              },
-              {
-                value: "he",
-                isOther: false,
-              },
-              {
-                value: "she",
-                isOther: false,
-              },
-              {
-                value: "it",
-                isOther: false,
-              },
-              {
-                value: "you",
-                isOther: false,
-              },
-              {
-                value: "we",
-                isOther: false,
-              },
-              {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
@@ -806,7 +296,7 @@ export default {
       },
     },
     {
-      title: "____ are very kind people ( Eles são pessoas muito gentis )",
+      title: "Eles <construíram> uma casa nova",
       questionItem: {
         question: {
           required: true,
@@ -815,43 +305,105 @@ export default {
             correctAnswers: {
               answers: [
                 {
-                  value: "they",
+                  value: "passado",
                 },
               ],
             },
             whenWrong: {
-              text: "O pronome correto aqui é 'they' porque se refere à terceira pessoa do plural.",
+              text: "O verbo 'construíram' está no passado.",
             },
           },
           choiceQuestion: {
             type: "RADIO",
             options: [
               {
-                value: "I",
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "he",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "she",
+                value: "futuro",
+                isOther: false,
+              },
+            ],
+            shuffle: true,
+          },
+        },
+      },
+    },
+    {
+      title: "Nós <compraremos> um carro novo",
+      questionItem: {
+        question: {
+          required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "futuro",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "O verbo 'compraremos' está no futuro.",
+            },
+          },
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "it",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "you",
+                value: "futuro",
+                isOther: false,
+              },
+            ],
+            shuffle: true,
+          },
+        },
+      },
+    },
+    {
+      title: "Eu <leio> livros todos os dias",
+      questionItem: {
+        question: {
+          required: true,
+          grading: {
+            pointValue: 1,
+            correctAnswers: {
+              answers: [
+                {
+                  value: "presente",
+                },
+              ],
+            },
+            whenWrong: {
+              text: "O verbo 'leio' está no presente.",
+            },
+          },
+          choiceQuestion: {
+            type: "RADIO",
+            options: [
+              {
+                value: "presente",
                 isOther: false,
               },
               {
-                value: "we",
+                value: "passado",
                 isOther: false,
               },
               {
-                value: "they",
+                value: "futuro",
                 isOther: false,
               },
             ],
