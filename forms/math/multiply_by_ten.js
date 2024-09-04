@@ -1,5 +1,6 @@
-const responderUri = "";
-const formId = "";
+const responderUri =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfVjEm1DZ7ClUZ9w9et8hp4ePjUabAAOm9b9XJ64Mui1MstGQ/viewform";
+const formId = "1A-bE3-fspQFhhz03B1RBZ010YLnY8YCPHF39l7HrSks";
 
 export default {
   title: "Tabuada de Multiplicação por 10",
