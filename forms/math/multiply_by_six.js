@@ -1,9 +1,11 @@
-const responderUri = "";
-const formId = "";
+const responderUri =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdwvnoXV9h0YKL7elc_xycnc93k5WygZRXxNzsBaqE515vNqA/viewform";
+const formId = "16laeX9ZVL4zH4-3xRkv7VlVstJ03GIfWmjwwCu4Oes0";
 
 export default {
   title: "Tabuada de Multiplicação por 6",
   documentTitle: "Tabuada 6",
+  description: "Resolva a tabuada de 6",
   items: [
     {
       title: `6 x 11`,

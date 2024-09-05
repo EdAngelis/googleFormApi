@@ -44,9 +44,7 @@ async function runSample() {
       // {
       //   updateFormInfo: {
       //     info: {
-      //       description: `Substantivo Comum: Designa seres, objetos ou conceitos de forma geral, sem especificar. Exemplo: "cidade", "livro", "professor".
-
-      //       Substantivo Próprio: Designa seres, lugares ou objetos específicos, geralmente escrito com inicial maiúscula. Exemplo: "Brasil", "João", "Amazonas".`,
+      //       description: form.description,
       //     },
       //     updateMask: "updateFormInfo.description",
       //   },
