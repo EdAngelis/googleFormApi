@@ -1,5 +1,6 @@
-const responderUri = "";
-const formId = "";
+const responderUri =
+  "https://docs.google.com/forms/d/e/1FAIpQLSeg3KtPXjXG7xnSSYBgAPEdTftcSl_rktnc4gcLTKDCDjJHhQ/viewform";
+const formId = "1OUxSiN1wkRrNyFR7BIjhIxXRjue2lE5yz_b5-xUBpqU";
 
 export default {
   title: "Tabuada de Multiplicação por 9",

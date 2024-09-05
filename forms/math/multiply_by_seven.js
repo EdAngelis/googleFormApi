@@ -1,5 +1,6 @@
-const responderUri = "";
-const formId = "";
+const responderUri =
+  "https://docs.google.com/forms/d/e/1FAIpQLScEZMU8Wo9fT-XYFLCcKx0Ags610obFLERw2Eu_2K0UuV_lnQ/viewform";
+const formId = "1SlO4qjGgJT45HEmAhKoBIvsYstpI1LoCUuuPanYbxT4";
 
 export default {
   title: "Tabuada de Multiplicação por 7",
