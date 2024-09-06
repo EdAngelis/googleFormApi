@@ -1,5 +1,4 @@
-const responderUri =
-  "https://docs.google.com/forms/d/e/1FAIpQLSeg3KtPXjXG7xnSSYBgAPEdTftcSl_rktnc4gcLTKDCDjJHhQ/viewform";
+const responderUri = "";
 const formId = "1OUxSiN1wkRrNyFR7BIjhIxXRjue2lE5yz_b5-xUBpqU";
 
 export default {

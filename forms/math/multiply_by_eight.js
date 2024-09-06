@@ -1,6 +1,6 @@
 const responderUri =
-  "https://docs.google.com/forms/d/e/1FAIpQLScEZMU8Wo9fT-XYFLCcKx0Ags610obFLERw2Eu_2K0UuV_lnQ/viewform";
-const formId = "1SlO4qjGgJT45HEmAhKoBIvsYstpI1LoCUuuPanYbxT4";
+  "https://docs.google.com/forms/d/e/1FAIpQLSclbEYHRVUimgEKlaJHYIaUZFgUUV46b-J81_lTkmBKpleOag/viewform";
+const formId = "1jf-sNVwyFu4TQy1Is29OABbrqMNfXvHWotI_3kqbVQ8";
 
 export default {
   title: "Tabuada de Multiplicação por 8",
