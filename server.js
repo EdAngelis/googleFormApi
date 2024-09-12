@@ -51,6 +51,23 @@ async function runSample() {
       // },
     ];
 
+    requests.push({
+      createItem: {
+        item: {
+          title: `Nome do Aluno`,
+          questionItem: {
+            question: {
+              required: true,
+              textQuestion: {
+                paragraph: false,
+              },
+            },
+          },
+        },
+        location: { index: 0 },
+      },
+    });
+
     for (const item of form.items) {
       requests.push({
         createItem: {
